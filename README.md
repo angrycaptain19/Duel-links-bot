@@ -4,8 +4,10 @@ a bot for duel links with PvP support and npc farming
 only works with day/night cycle off and screen settings on 1152 x 648
 
 INSTALL INSTRUCTIONS:
-inside the bot folder on powershell run:
+
+1.- unzip
+2.- inside the bot folder on powershell run:
 pip install -r requirements.txt
 
-then:
+3.- to run simply type:
 python gui.py
