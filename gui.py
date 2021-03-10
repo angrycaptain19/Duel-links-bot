@@ -1,6 +1,6 @@
 import módulo2 as m2
 from tkinter import *
-import ctypes
+
 
 def no_orb():
  window.destroy()
