@@ -38,7 +38,7 @@ def click_image(coords, clicks):
  if coords == False:
    return
  #filter known false positives 
- if coords == [712.5, 433.5] or coords == [760.5, 449.1666666666667] or coords == [698.0, 456.5] or coords == [481.5, 559.5] or coords == [703.0, 608.5] or coords == [712.5, 433.5] or coords == [670.5, 461.0] or coords == [644.5, 608.5] or coords == [748.5, 447.5] or coords == [693.1666666666667, 510.5] or coords == [808.5, 694.5]:
+ if coords == [778.5, 410.0] or coords == [712.5, 433.5] or coords == [760.5, 449.1666666666667] or coords == [698.0, 456.5] or coords == [481.5, 559.5] or coords == [703.0, 608.5] or coords == [712.5, 433.5] or coords == [670.5, 461.0] or coords == [644.5, 608.5] or coords == [748.5, 447.5] or coords == [693.1666666666667, 510.5] or coords == [808.5, 694.5]:
   return coords
  else:
   #loop for every click
